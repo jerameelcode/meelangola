@@ -31,9 +31,11 @@
 
 .body {
   object-fit: cover;
-  background-image: url("https://assets-global.website-files.com/64feef0c2d03c68f79aee2ad/650470086a82049fe936be5e_rock-bg-hero-1.png"), linear-gradient(rgba(0, 0, 0, .02), rgba(0, 0, 0, .02));
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url('../images/rock-bg-hero-1.png'), linear-gradient(rgba(0, 0, 0, .02), rgba(0, 0, 0, .02));
+  background-position: 50%, 0 0;
   background-size: cover, auto;
-  font-family: Ubuntu;
+  font-family: Ubuntu, Helvetica, sans-serif;
   overflow: visible;
 }
 
@@ -117,7 +119,7 @@
   margin-top: 0;
   font-size: 50px;
   font-weight: 400;
-  line-height: 60px;
+  line-height: 56px;
 }
 
 .text-span-main {
@@ -151,8 +153,11 @@
 }
 
 .button-one.btn {
+  width: 48%;
+  max-width: 100%;
   border: 2px solid var(--crimson);
   background-color: var(--crimson);
+  text-align: center;
   text-transform: uppercase;
   border-radius: 8px;
   padding: 12px 25px;
@@ -161,6 +166,8 @@
 }
 
 .button-two {
+  width: 45%;
+  max-width: 100%;
   border: 1px solid var(--crimson);
   color: var(--crimson);
   text-transform: uppercase;
@@ -208,10 +215,6 @@
   font-weight: 700;
 }
 
-.dropdown-link-list:hover {
-  color: #000;
-}
-
 .dropdown-link-list.two {
   display: none;
 }
@@ -228,7 +231,7 @@
 
 .section-servico {
   background-color: #f3f3f3;
-  background-image: url('images/pattern-randomized.svg');
+  background-image: url('../images/pattern-randomized.svg');
   background-position: 0 0;
   background-size: auto;
   padding-top: 20px;
@@ -498,7 +501,7 @@
   width: 130px;
   height: 130px;
   background-color: var(--crimson);
-  background-image: url('images/jerameelGonga.jpg');
+  background-image: url('../images/jerameelGonga.jpg');
   background-position: 50%;
   background-size: cover;
   border-radius: 50%;
@@ -552,7 +555,7 @@
   width: 130px;
   height: 130px;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('images/LeLo.jpg');
+  background-image: url('../images/LeLo.jpg');
   background-position: 50%;
   background-size: cover;
   border-radius: 50%;
@@ -562,7 +565,7 @@
   width: 130px;
   height: 130px;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('images/AdaltonCalombe.jpg');
+  background-image: url('../images/AdaltonCalombe.jpg');
   background-position: 50%;
   background-size: cover;
   border-radius: 50%;
@@ -587,7 +590,7 @@
   width: 130px;
   height: 130px;
   background-color: var(--crimson);
-  background-image: url('images/jerameelGonga.jpg');
+  background-image: url('../images/jerameelGonga.jpg');
   background-position: 50%;
   background-size: cover;
   border-radius: 50%;
@@ -639,7 +642,7 @@
   width: 130px;
   height: 130px;
   background-color: var(--crimson);
-  background-image: url('images/jerameelGonga.jpg');
+  background-image: url('../images/jerameelGonga.jpg');
   background-position: 50%;
   background-size: cover;
   border-radius: 50%;
@@ -695,7 +698,7 @@
 
 .section-footer {
   background-color: rgba(0, 0, 0, 0);
-  margin-top: 60px;
+  margin-top: 20px;
   margin-left: 0;
   margin-right: 0;
   padding-bottom: 20px;
@@ -926,7 +929,7 @@
 }
 
 .body-2 {
-  background-image: url('images/rock-bg-hero-1.png');
+  background-image: url('../images/rock-bg-hero-1.png');
   background-position: 50%;
   background-size: cover;
   font-family: Ubuntu, Helvetica, sans-serif;
@@ -1435,7 +1438,7 @@
 }
 
 .body-login {
-  background-image: url('images/rock-bg-hero-1.png');
+  background-image: url('../images/rock-bg-hero-1.png');
   background-position: 50%;
   background-size: cover;
   justify-content: center;
@@ -1575,7 +1578,7 @@
 }
 
 .body-cadastramento {
-  background-image: url('images/rock-bg-hero-1.png');
+  background-image: url('../images/rock-bg-hero-1.png');
   background-position: 50%;
   background-size: cover;
   font-family: Ubuntu, Helvetica, sans-serif;
@@ -1805,7 +1808,7 @@
 }
 
 .body-registro {
-  background-image: url('images/rock-bg-hero-1.png');
+  background-image: url('../images/rock-bg-hero-1.png');
   background-position: 50%;
   background-size: cover;
   justify-content: center;
@@ -1819,7 +1822,7 @@
 
 .body-recoperar {
   cursor: default;
-  background-image: url('images/rock-bg-hero-1.png');
+  background-image: url('../images/rock-bg-hero-1.png');
   background-position: 50%;
   background-size: cover;
   justify-content: center;
@@ -1858,7 +1861,7 @@
 }
 
 .body-redsenha {
-  background-image: url('images/rock-bg-hero-1.png');
+  background-image: url('../images/rock-bg-hero-1.png');
   background-position: 50%;
   background-size: cover;
   justify-content: center;
@@ -2231,7 +2234,7 @@
 }
 
 .body-dev {
-  background-image: url('images/rock-bg-hero-1.png');
+  background-image: url('../images/rock-bg-hero-1.png');
   background-position: 50%;
   background-size: cover;
   font-family: Ubuntu, Helvetica, sans-serif;
@@ -2474,7 +2477,7 @@
 }
 
 .body-markting {
-  background-image: url('images/rock-bg-hero-1.png');
+  background-image: url('../images/rock-bg-hero-1.png');
   background-position: 50%;
   background-size: cover;
   font-family: Ubuntu, Helvetica, sans-serif;
@@ -2514,7 +2517,7 @@
 }
 
 .body-contacto {
-  background-image: url('images/rock-bg-hero-1.png');
+  background-image: url('../images/rock-bg-hero-1.png');
   background-position: 50%;
   background-size: cover;
   font-family: Ubuntu, Helvetica, sans-serif;
@@ -2814,7 +2817,7 @@
 }
 
 .body-consultoria {
-  background-image: url('images/rock-bg-hero-1.png');
+  background-image: url('../images/rock-bg-hero-1.png');
   background-position: 50%;
   background-size: cover;
 }
@@ -3324,7 +3327,7 @@
   }
 
   .body-cadastramento {
-    background-image: url('images/rock-bg-hero-1.png');
+    background-image: url('../images/rock-bg-hero-1.png');
     background-position: 50%;
     background-size: cover;
   }
@@ -3774,7 +3777,7 @@
   }
 
   .container-img_testemunho_s2 {
-    background-image: url('images/LeLo.jpg');
+    background-image: url('../images/LeLo.jpg');
   }
 
   .block-quote-s1 {
@@ -3805,7 +3808,7 @@
 
   .container-img_testemunhos1 {
     background-color: rgba(0, 0, 0, 0);
-    background-image: url('images/jerameelGonga.jpg');
+    background-image: url('../images/jerameelGonga.jpg');
   }
 
   .heading-s1 {
@@ -3843,7 +3846,7 @@
 
   .container-img_testemunho_s3 {
     background-color: rgba(0, 0, 0, 0);
-    background-image: url('images/AdaltonCalombe.jpg');
+    background-image: url('../images/AdaltonCalombe.jpg');
   }
 
   .div-block-testemunho, .div-block-testemunho2, .div-block-testemunhos2, .div-block-testemunho2s2, .div-block-testemunho3s2 {
@@ -4478,7 +4481,18 @@
     padding-right: 25px;
   }
 
-  .button-one.btn, .button-two {
+  .button-one.btn {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .button-two {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
     padding: 10px;
     font-size: 12px;
   }
@@ -4524,7 +4538,7 @@
   .section-service {
     margin-left: 0;
     margin-right: 0;
-    padding-top: 10px;
+    padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -4654,7 +4668,7 @@
   .section-footer {
     flex-direction: column;
     align-items: stretch;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 0;
     margin-right: 0;
     padding-top: 10px;
@@ -5433,9 +5447,11 @@
   }
 
   .div-block-one {
+    flex-direction: row;
     justify-content: space-between;
     margin-top: 0;
     padding-top: 10px;
+    display: block;
   }
 
   .section-service-precos {
