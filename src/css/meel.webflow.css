@@ -31,9 +31,7 @@
 
 .body {
   object-fit: cover;
-  background-color: rgba(0, 0, 0, 0);
-  background-image: url('images/rock-bg-hero-1.png'), linear-gradient(rgba(0, 0, 0, .02), rgba(0, 0, 0, .02));
-  background-position: 50%, 0 0;
+  background-image: url("https://assets-global.website-files.com/64feef0c2d03c68f79aee2ad/650470086a82049fe936be5e_rock-bg-hero-1.png"), linear-gradient(rgba(0, 0, 0, .02), rgba(0, 0, 0, .02));
   background-size: cover, auto;
   font-family: Ubuntu;
   overflow: visible;
@@ -208,6 +206,10 @@
   padding-left: 10px;
   font-size: 16px;
   font-weight: 700;
+}
+
+.dropdown-link-list:hover {
+  color: #000;
 }
 
 .dropdown-link-list.two {
