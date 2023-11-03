@@ -170,6 +170,7 @@
   max-width: 100%;
   border: 1px solid var(--crimson);
   color: var(--crimson);
+  text-align: center;
   text-transform: uppercase;
   background-color: #fff;
   border-radius: 8px;
