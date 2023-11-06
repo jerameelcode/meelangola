@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  wa_message: String = "https://api.whatsapp.com/send/?phone=244926667736&text=Olá, Meel. Gostaria de criar uma conta Netflix.&type=phone_number&app_absent=1";
+
 }
