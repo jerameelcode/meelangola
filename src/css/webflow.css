@@ -48,15 +48,11 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-image: url("https://assets-global.website-files.com/64feef0c2d03c68f79aee2ad/650470086a82049fe936be5e_rock-bg-hero-1.png"), linear-gradient(rgba(0, 0, 0, .02), rgba(0, 0, 0, .02));
-  background-size: cover, auto;
-  background-repeat: space;
-  /* background-attachment: fixed; */
+  background-color: #fff;
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333;
-  font-family: Ubuntu;
 }
 img {
   max-width: 100%;
