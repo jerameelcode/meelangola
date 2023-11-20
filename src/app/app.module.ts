@@ -7,6 +7,7 @@ import { FooterComponent } from './core/components/footer/footer.component';
 import { NavbarComponent } from './core/components/navbar/navbar.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { HomeComponent } from './features/home/home.component';
+import { NumerosComponent } from './features/numeros/numeros.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './features/home/home.component';
     NavbarComponent,
     FooterComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    NumerosComponent
   ],
   imports: [
     BrowserModule,
