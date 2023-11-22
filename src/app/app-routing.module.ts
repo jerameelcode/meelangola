@@ -7,14 +7,10 @@ import { ConsultoriaComponent } from './features/consultoria/consultoria.compone
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-<<<<<<< HEAD
-  {path: 'contacto', component: ContactComponent},
-  {path: 'consultoria', component: ConsultoriaComponent}
-=======
+  {path: 'consultoria', component: ConsultoriaComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'terms-conditions', component: ContactComponent},
-  {path: 'dev', component: DevelopmentComponent},
->>>>>>> 0c96727693725e47868deb6ee301abdc3f286062
+  {path: 'dev', component: DevelopmentComponent}
 ];
 
 @NgModule({
