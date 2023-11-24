@@ -11,6 +11,7 @@ import { NumerosComponent } from './features/numeros/numeros.component';
 import { ConsultoriaComponent } from './features/consultoria/consultoria.component';
 import { TermsAndConditionComponent } from './features/terms-and-condition/terms-and-condition.component';
 import { DevelopmentComponent } from './features/development/development.component';
+import { MarktingComponent } from './features/markting/markting.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DevelopmentComponent } from './features/development/development.compone
     NumerosComponent,
     ConsultoriaComponent,
     TermsAndConditionComponent,
-    DevelopmentComponent
+    DevelopmentComponent,
+    MarktingComponent
   ],
   imports: [
     BrowserModule,
