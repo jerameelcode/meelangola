@@ -8,6 +8,9 @@ import { NavbarComponent } from './core/components/navbar/navbar.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { HomeComponent } from './features/home/home.component';
 import { NumerosComponent } from './features/numeros/numeros.component';
+import { ConsultoriaComponent } from './features/consultoria/consultoria.component';
+import { TermsAndConditionComponent } from './features/terms-and-condition/terms-and-condition.component';
+import { DevelopmentComponent } from './features/development/development.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { NumerosComponent } from './features/numeros/numeros.component';
     FooterComponent,
     ContactComponent,
     HomeComponent,
-    NumerosComponent
+    NumerosComponent,
+    ConsultoriaComponent,
+    TermsAndConditionComponent,
+    DevelopmentComponent
   ],
   imports: [
     BrowserModule,
