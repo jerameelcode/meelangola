@@ -1,3 +1,23 @@
-page:
+page: Consultoria
 secction:
+    1 - Section main - paragrafo-main
+    2 - Section Service - paragrafo-main-Service
+    3 - Section-service-preco
+        Nota: Estabelecer os Preços reais para cada plano
 
+
+
+page: development
+secction:
+    1. Serviços;
+    2. Preços
+    Nota: Alterar as Images
+
+
+
+page: markting
+secction:
+    1. section-main - paragrafo-main
+    2. section Service
+    Nota: Alterar as Images
+    

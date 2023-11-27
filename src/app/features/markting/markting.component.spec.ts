@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import NavbarComponent from './navbar.component';
+import { MarktingComponent } from './markting.component';
 
-describe('NavbarComponent', () => {
-  let component: NavbarComponent;
-  let fixture: ComponentFixture<NavbarComponent>;
+describe('MarktingComponent', () => {
+  let component: MarktingComponent;
+  let fixture: ComponentFixture<MarktingComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [NavbarComponent]
+      declarations: [MarktingComponent]
     });
-    fixture = TestBed.createComponent(NavbarComponent);
+    fixture = TestBed.createComponent(MarktingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
