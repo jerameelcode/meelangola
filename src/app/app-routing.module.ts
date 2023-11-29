@@ -6,6 +6,7 @@ import { HomeComponent } from './features/home/home.component';
 import { ConsultoriaComponent } from './features/consultoria/consultoria.component';
 import { TermsAndConditionComponent } from './features/terms-and-condition/terms-and-condition.component';
 import { MarktingComponent } from './features/markting/markting.component';
+import { SobreComponent } from './features/sobre/sobre.component';
 
 
 const routes: Routes = [
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent},
   {path: 'terms-conditions', component: TermsAndConditionComponent},
   {path: 'development', component: DevelopmentComponent},
-  {path: 'marketing', component: MarktingComponent}
+  {path: 'marketing', component: MarktingComponent},
+  {path: 'sobre', component: SobreComponent}
 ];
 
 @NgModule({
