@@ -13,8 +13,12 @@ const routes: Routes = [
   {path: 'consultoria', component: ConsultoriaComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'terms-conditions', component: TermsAndConditionComponent},
+<<<<<<< HEAD
   {path: 'dev', component: DevelopmentComponent},
   {path: 'markting', component: MarktingComponent}
+=======
+  {path: 'development', component: DevelopmentComponent}
+>>>>>>> feature/delopment
 ];
 
 @NgModule({
