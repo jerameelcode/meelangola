@@ -124,7 +124,7 @@
 
 .text-span-main {
   color: #ff024a;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .text-span-2 {
@@ -5461,7 +5461,7 @@
   }
 
   .heading-32 {
-    font-size: 28px;
+    font-size: 36px;
   }
 
   .text-block-18 {
