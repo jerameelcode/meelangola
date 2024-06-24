@@ -1,3 +1,26 @@
-:host {
-    font-family: 'Ubuntu';
+.one {
+    animation: one 20s infinite ease-in-out;
+    width: 400px;
+    height: 400px;
+}
+
+.two {
+    animation: two 20s infinite ease-in-out;
+    width: 500px;
+    height: 500px;
+}
+
+@keyframes one {
+    0% { transform: translateX(0vw) translateY(0vh); }
+    25% { transform: translateX(30vw) translateY(50); background-color: #ea00ff;}
+    50% { transform: translateX(100vw) translateY(30vh); background-color: #d400ff;}
+    75% { transform: translateX(20vw) translateY(90vh); background-color: #6200ff;}
+    100% { transform: translateX(80vw) translateY(0vh); background-color: #ff00a6;}
+}
+
+@keyframes two {
+    0% { transform: translateX(80vw) translateY(80vh); background-color: #ff00a6;}
+    25% { transform: translateX(20vw) translateY(90vh); background-color: #6200ff;}
+    50% { transform: translateX(70vw) translateY(30vh); background-color: #008cff;}
+    100% { transform: translateX(0vw) translateY(0vh); }
 }
