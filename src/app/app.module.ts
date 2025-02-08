@@ -7,7 +7,7 @@ import { FooterComponent } from './core/components/footer/footer.component';
 import { NavbarComponent } from './core/components/navbar/navbar.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { HomeComponent } from './features/home/home.component';
-import { NumerosComponent } from './features/numeros/numeros.component';
+import { NumbersComponent } from './features/numbers/numbers.component';
 import { BackgroundComponent } from './shared/background/background.component';
 
 @NgModule({
@@ -17,7 +17,7 @@ import { BackgroundComponent } from './shared/background/background.component';
     FooterComponent,
     ContactComponent,
     HomeComponent,
-    NumerosComponent,
+    NumbersComponent,
     BackgroundComponent
   ],
   imports: [

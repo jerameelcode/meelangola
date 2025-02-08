@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NumerosComponent } from './numeros.component';
+import { NumbersComponent } from './numbers.component';
 
-describe('NumerosComponent', () => {
-  let component: NumerosComponent;
-  let fixture: ComponentFixture<NumerosComponent>;
+describe('NumbersComponent', () => {
+  let component: NumbersComponent;
+  let fixture: ComponentFixture<NumbersComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [NumerosComponent]
+      declarations: [NumbersComponent]
     });
-    fixture = TestBed.createComponent(NumerosComponent);
+    fixture = TestBed.createComponent(NumbersComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
